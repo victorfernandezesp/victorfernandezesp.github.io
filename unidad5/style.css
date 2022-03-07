@@ -1,0 +1,11 @@
+nav ul{
+display:flex;
+justify-content: space-between;
+}
+
+nav li {
+    width: 40px;
+    border: 2px blue solid;
+    padding: 10px;
+    height: 45px;
+}

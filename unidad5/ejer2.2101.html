@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid ;
+            grid-template-areas: 
+            "header header header"
+            "nav article ads"
+            "footer footer footer";
+            grid-template-rows: 50px;
+            grid-template-columns: 20% 1fr 15%;
+            grid-gap: 5px;
+            height: 100vh;
+            margin: 0;
+        }
+        header,footer,article,nav,div {
+            grid-area: auto;
+            padding: 15px;
+            background-color: violet;
+        }
+        #footer{
+            grid-area: footer;
+
+        }
+        #article{
+            grid-area: article;
+            
+        }
+        #nav{
+            grid-area: nav;
+            
+        }
+        #div{
+            grid-area: ads;
+            
+        }
+        #header{
+            grid-area: header;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="header">Header</header>
+    <article id="article">article</article>
+    <nav id="nav">nav</nav>
+    <div id="div">div</div>
+    <footer id="footer">footer</footer>
+</body>
+</html>
