@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
+@media (min-width: 960px){
 p, a, li, h1, h3, h5{
 	font-family: sans-serif;
 }
 
 .cabecera{
 	overflow: hidden;
-	background-image: url(imagenes/mezquita.jpg);
-	/*height: 300px;
-	width: 5000px;*/
+	background-image: url(imagenes/mezquiencab.jpg);
+	height: 225px;
 }
 .cabecera img{
 	display: flex;
@@ -29,8 +28,9 @@ p, a, li, h1, h3, h5{
 }
 
 .menu{
-	background: rgb(35, 35, 65);
+	background: rgb(206, 193, 137);
 	overflow: hidden;
+	height: 25%;
 }
 
 .menu ul li{
@@ -48,7 +48,7 @@ p, a, li, h1, h3, h5{
 }
 .menu ul li a:hover{
 	text-decoration: none;
-	color: #f3bf7b;
+	color: #666666;
 }
 
 .slider{
@@ -59,27 +59,63 @@ p, a, li, h1, h3, h5{
 	overflow: hidden;
 	margin:20px 0px ;
 }
+.iconos:hover{
+	background-color: rgb(236, 230, 209);
+	overflow: hidden;
+	margin:20px 0px ;
+}
 .iconos h3{
 	text-align: center;
 	color: #444444;
 	font-size: 26px;
 }
 .iconos div{
-	width: 24%;
+	width: 300px;
+	margin-left: 10%;
 	float: left;
 	overflow: hidden;
 }
 
 .iconos div img{
-	width: 80%;
+	width: 60%;
 	display: block;
 	margin: auto;
 }
 .iconos div p{
 	text-align: center;
-	color: cornflowerblue;
+	color: rgb(102, 96, 67);
 }
 
+.iconos2{
+	overflow: hidden;
+	margin:20px 0px ;
+}
+.iconos2:hover{
+	background-color: rgb(236, 230, 209);
+	overflow: hidden;
+	margin:20px 0px ;
+}
+.iconos2 h3{
+	text-align: center;
+	color: #444444;
+	font-size: 26px;
+}
+.iconos2 div{
+	width: 300px;
+	margin-right: 10%;
+	float: right;
+	overflow: hidden;
+}
+
+.iconos2 div img{
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+.iconos2 div p{
+	text-align: center;
+	color: rgb(102, 96, 67);
+}
 .sobremi h1{
 	text-align: center;
 	font-size: 32px;
@@ -96,13 +132,17 @@ p, a, li, h1, h3, h5{
 	text-rendering: initial;
 	color: #000000;
 }
-
 footer{
-    background-color: rgb(255, 226, 215);
+    background-color: rgb(206, 193, 137);
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     text-align: center;
 
+}
+address{
+    background-color: rgb(206, 193, 137);
+    width: 100%;
+    text-align: center;
 }
 #redes li{
     display: inline-block;
@@ -124,3 +164,213 @@ footer{
 	object-position: center;
     width: 7%;
 }
+}
+
+
+
+
+
+
+@media (max-width: 960px){
+	p, a, li, h1, h3, h5{
+		font-family: sans-serif;
+		font-size: 100%;
+
+	}
+	
+	.cabecera{
+		overflow: hidden;
+		background-image: url(imagenes/mezquiencab.jpg);
+		height: 20%;
+	}
+	.cabecera img{
+		display: flex;
+		margin: auto;
+		height: 20%;
+
+	}
+	
+	.cabecera h3{
+		text-align: center;
+		font-size: 150%;
+		color: #ffffff;
+
+	}
+	
+	.cabecera h5{
+		font-size: 27px;
+		text-align: center;
+		color:#ffffff;
+	}
+	
+	.menu{
+		background: rgb(206, 193, 137);
+		overflow: hidden;
+		height: 45%;
+		
+	}
+	
+	.menu ul li{
+		list-style: none;
+		display: inline;
+		padding:2%;
+		
+		margin: 0.25%;
+	}
+	
+	.menu ul li a{
+		color: #ffffff;
+		padding: 15px;
+		text-decoration: none;
+
+	}
+	.menu ul li a:hover{
+		text-decoration: none;
+		color: #ffffff;
+		background-color: rgb(136, 128, 90);
+		position: sticky;
+	}
+	
+	.slider{
+		width: 100%;
+	}
+	
+	.iconos{
+		overflow: hidden;
+		margin:20px 0px ;
+
+	}
+	.iconos:hover{
+		background-color: rgb(197, 183, 136);
+		overflow: hidden;
+		margin:20px 0px ;
+
+	}
+	.iconos h3{
+		text-align: center;
+		color: #444444;
+		font-size: 26px;
+	}
+	
+	.iconos div{
+		width: 300px;
+		margin-left: 10%;
+		float: initial;
+		overflow: hidden;
+	}
+	
+	.iconos div img{
+		width: 60%;
+		display: block;
+		margin: auto;
+		float: left;
+	}
+	.iconos div img:hover{
+		width: 60%;
+		display: block;
+		margin: auto;
+		float: left;
+		background-color: rgb(199, 187, 129);;
+
+	}
+	.iconos div p{
+		text-align: center;
+		float: left;
+		color: rgb(102, 96, 67);
+	}
+	
+	.iconos2{
+		overflow: hidden;
+		margin:20px 0px ;
+	}
+
+	.iconos2:hover{
+		overflow: hidden;
+		margin:20px 0px ;
+		overflow: hidden;
+		margin:20px 0px ;
+		background-color: rgb(197, 183, 136);
+
+	}
+	.iconos2 h3{
+		text-align: center;
+		color: #444444;
+		font-size: 26px;
+	}
+	.iconos2 div{
+		width: 300px;
+		margin-left: 10%;
+		float: initial;
+		overflow: hidden;
+	}
+	
+	.iconos2 div img{
+		width: 60%;
+		display: block;
+		margin: auto;
+		float: left;
+
+
+	}
+	.iconos2 div img:hover{
+		width: 60%;
+		display: block;
+		margin: auto;
+		float: left;
+		background-color: rgb(199, 187, 129);;
+
+	}
+	.iconos2 div p{
+		text-align: center;
+		float: left;
+		color: rgb(102, 96, 67);
+	}
+	.sobremi h1{
+		text-align: center;
+		font-size: 32px;
+		color: #000000;
+	}
+	.Caja {
+		float: right;
+	}
+	.sobremi p{
+		text-align: justify;
+		margin-left: 80px;
+		margin-right: 80px;
+		font-size: 20px;
+		text-rendering: initial;
+		color: #000000;
+	}
+	footer{
+		background-color: rgb(206, 193, 137);
+		width: 100%;
+		height: 20vh;
+		text-align: center;
+	
+	}
+	address{
+		background-color: rgb(206, 193, 137);
+		width: 100%;
+		text-align: center;
+	}
+	#redes li{
+		display: inline-block;
+		text-decoration: none;
+		margin-top: calc();
+		width: 32%;
+		
+	}
+	
+	#github{
+	   object-position: center;
+		width: 7%;
+	}
+	#twitter{
+		object-position: center;
+		width: 7%;
+	}
+	#gmail{
+		object-position: center;
+		width: 7%;
+	}
+	}
