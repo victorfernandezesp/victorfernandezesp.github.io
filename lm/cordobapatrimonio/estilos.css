@@ -73,7 +73,7 @@ p, a, li, h1, h3, h5{
 	font-size: 26px;
 }
 .iconos div{
-	background-image: url(imagenes/div.jpg);
+	background-image: url(imagenes/degrad.jpg);
 	width: 24%;
 	float: left;
 	overflow: hidden;
@@ -107,7 +107,7 @@ p, a, li, h1, h3, h5{
 }
 
 footer{
-	background-color: cornsilk;
+	background-color: rgb(220, 255, 255);
     width: 100%;
     text-align: center;
 	position: absolute;
