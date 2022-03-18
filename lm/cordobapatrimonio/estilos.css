@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+p, a, li, h1, h3, h5{
+	font-family: sans-serif;
+}
+
+.cabecera{
+	overflow: hidden;
+	background-image: url("imagenes/mezqui.jpg") ;
+		width: 100%;
+
+}
+.cabecera img{
+	display: flex;
+	margin: auto;
+}
+
+.cabecera h3{
+	text-align: center;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.cabecera h5{
+	font-size: 27px;
+	text-align: center;
+	color:#ffffff;
+}
+
+.menu{
+	background: rgb(35, 35, 65);
+	overflow: hidden;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+
+.menu ul li a{
+	color: #ffffff;
+	padding: 15px;
+	text-align: justify;
+	text-decoration: none;
+
+	
+}
+.menu ul li a:hover{
+	text-decoration: none;
+	color: #f7b45c;
+	border: 3PX groove rgb(252, 202, 93);
+
+}
+
+.iconos div p a:hover{
+	text-decoration: none;
+	color: #f3bf7b;
+	border: 6PX dotted rgb(0, 195, 255);
+
+}
+.slider{
+	width: 100%;
+}
+
+.iconos{
+	overflow: hidden;
+	margin:20px 0px ;
+}
+.iconos h3{
+	text-align: center;
+	color: #444444;
+	font-size: 26px;
+}
+.iconos div{
+	background-image: url(imagenes/div.jpg);
+	width: 24%;
+	float: left;
+	overflow: hidden;
+}
+
+.iconos div img{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+.iconos div p{
+	text-align: center;
+	color: cornflowerblue;
+}
+
+.sobremi h1{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.Caja {
+	float: right;
+}
+.sobremi p{
+	text-align: justify;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 20px;
+	text-rendering: initial;
+	color: #000000;
+}
+
+footer{
+	background-color: cornsilk;
+    width: 100%;
+    text-align: center;
+	position: absolute;
+	top:300%;
+}
+#redes li{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: calc();
+    width: 32%;
+    
+}
+
+#github{
+   object-position: center;
+    width: 7%;
+}
+#twitter{
+	object-position: center;
+    width: 7%;
+}
+#gmail{
+	object-position: center;
+    width: 7%;
+}
+
+.contenido{
+	overflow: hidden;
+	margin: 2vh 4vw;
+	border: 4px dotted #3e5bac;
+	padding: 1vw;
+	border-radius: 10px;
+}
+.contenido img{
+	display: flex;
+	margin: auto;
+}
+
+.contenido h1{
+	text-align: center;
+	font-size: 25px;
+	color: #1a1a1a;
+}
+
+.contenido pre h3{
+	font-size: 17px;
+	text-align: justify;
+	color:#1a1a1a;
+	font-family: sans-serif;
+}
+.textocontenido {
+	font-size: 14px;
+	position: absolute;
+	left: 2%;
+	right: 50%;
+	top:245%;
+	text-align: justify;
+	font-family: sans-serif;
+
+}
+.imagencontenido {
+	position: absolute;
+	left:55%;
+	right:7%;
+	top:245%;
+	
+}
+
