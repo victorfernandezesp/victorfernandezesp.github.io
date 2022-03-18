@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"? >
+<p:persona
+    xmins:p=""
+    xmins:xsi=""
+    xsi:schemaLocation="pruebaxsd.xsd">
+    <p:nombre> John   </p:nombre>
+    <p:direccion> John </p:direccion>
+    </p:persona>

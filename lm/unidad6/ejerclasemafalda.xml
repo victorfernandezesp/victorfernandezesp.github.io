@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT personas (persona*)>
+<!ELEMENT persona (nombre, apellidos?, ciudad)>
+<!ATTLIST persona forma_pago (Bizum|Tarjeta|Contado) "Bizum">
+<!ATTLIST persona mayor_de_edad (Si|No) "Si" >
+<!ATTLIST persona sexo (M|F) "M" >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT mayor_de_edad (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>]>
+<personas>
+    <persona forma_pago="Bizum" mayor_de_edad = "Si" sexo="M">
+        <nombre>
+            Mafalda
+        </nombre>
+
+        <ciudad>
+            Córdoba
+        </ciudad>
+    </persona>
+    <persona>
+        <nombre>
+            Guille
+        </nombre>
+     <apellidos>
+              Serrano
+        </apellidos>
+
+        <ciudad>
+            Córdoba
+        </ciudad>
+
+    </persona>
+</personas>

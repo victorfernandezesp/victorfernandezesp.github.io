@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores por atributos</title>
+    <style>
+    p[name]{background-color: aquamarine;}
+    p[name="p2"]{background-color: rgb(241, 167, 154);}
+    p[name~=p]{background-color: rgb(163, 163, 163);}
+    p[name^=a]{background-color: rgb(128, 223, 109);}
+    p[name$=Patrimonio]{background-color: rgb(175, 206, 40);}
+    p[name*=x]{background-color: rgb(145, 145, 145);}
+    </style>
+</head>
+<body>
+    <h1>Ejemplo seletores 1</h1>
+    <p name>p1</p>
+
+    <p name="p2">p2</p>
+
+    <p name="Hola p apa">p3</p>
+    
+    <p name="antonio">p4</p>
+
+    <p name="CordobaPatrimonio">p5</p>
+
+    <p name="Raxón">p6</p>
+</body>
+</html>
