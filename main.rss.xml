@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <tittle> Noticia1 </tittle>
+    <link rel="alternate" type="application/rss+xml" title="Victor-Fernandez-XML" href="https://github.com/victorfernandezesp/victorfernandezesp.github.io/blob/main/lm/cordobapatrimonio/index2.html" />
+    <description>Descripcion de la Noticia 1</description>
+    <item>
+        <tittle> Noticia2 </tittle>
+        
+    <link rel="alternate" type="application/rss+xml" title="Victor-Fernandez-XML" href="https://github.com/victorfernandezesp/victorfernandezesp.github.io/blob/main/lm/index.html" />
+        <description>Descripcion de la Noticia 2</description>
+        <pubDate>Lunes, 18 de Marzon de 2019</pubDate>
+    </item>
+
+</channel>
+</rss>
