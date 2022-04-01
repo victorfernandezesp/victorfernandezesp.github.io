@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas SYSTEM "repaso3.dtd">
+<deportistas>
+  <deportista>
+    <deporte> Atletismo </deporte>
+    <nombre>Jesse Owens</nombre>
+   </deportista>
+
+  <deportista>
+    <deporte> Natación </deporte>
+    <deporte> Ciclismo </deporte>
+    <nombre>Mark Spitz</nombre>
+  </deportista>
+</deportistas>

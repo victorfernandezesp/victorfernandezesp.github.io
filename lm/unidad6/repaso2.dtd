@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT personas (profesor | alumno)* >
+
+<!ELEMENT profesor (nombre, asignaturas) >
+<!ELEMENT asignaturas (asignatura*)>
+
+<!ELEMENT asignatura (#PCDATA)>
+<!ATTLIST asignatura cod CDATA #REQUIRED >
+
+
+<!ELEMENT alumno (nombre,apellidos,curso,ciudad?) >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>

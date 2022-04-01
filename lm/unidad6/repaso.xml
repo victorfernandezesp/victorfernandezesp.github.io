@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "repaso.dtd">
+<agenda>
+    <contacto>
+        <nombre>Juan</nombre>
+        <apellido>Fernandez</apellido>
+        <apellido>Fernandez</apellido>
+
+        <telefono pais="España"> +34677794568</telefono>
+        <email>tuculounfurbolin@gmail.com</email>
+        <direccion>
+            <calle>Almondiga</calle>
+            <numero>30</numero>
+            <cp>1234</cp>
+        </direccion>
+    </contacto>
+</agenda>
