@@ -1,0 +1,41 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+<id>https://hugovipe1.github.io/index.html</id>
+<title> Victor Fernandez España Ejercicios XML. </title>
+<link href=" https://victorfernandezesp.github.io/index.html "/>
+
+<entry>
+    <id>https://victorfernandezesp.github.io/lm/unidad6/ejercicio1402.xml</id>
+    <title>Ejercicio 1 XML</title>
+    <updated>2022-04-04T11:00:00Z</updated>
+    <link href="https://victorfernandezesp.github.io/lm/unidad6/ejercicio1402.xml"/>
+</entry>
+
+<entry>
+    <id>https://victorfernandezesp.github.io/lm/unidad6/ejercicio1402</id>
+    <title>Ejercicio 2 XML</title>
+    <updated>2022-04-04T11:00:00Z</updated>
+    <link href="https://victorfernandezesp.github.io/lm/unidad6/ejercicio1402"/>
+</entry>
+
+<entry>
+    <id>https://victorfernandezesp.github.io/lm/unidad6/email.xml</id>
+    <title>Ejercicio 3 XML</title>
+    <updated>2022-04-04T11:00:00Z</updated>
+    <link href="https://victorfernandezesp.github.io/lm/unidad6/email.xml"/>
+</entry>
+ 
+<entry>
+    <id>https://victorfernandezesp.github.io/lm/unidad6/oviedo.xml</id>
+    <title>Ejercicio 4 XML</title>
+    <updated>2022-04-04T11:00:00Z</updated>
+    <link href="https://victorfernandezesp.github.io/lm/unidad6/oviedo.xml"/>
+</entry>
+
+<entry>
+    <id>https://victorfernandezesp.github.io/lm/unidad6/paises.xml</id>
+    <title>Ejercicio 5 XML</title>
+    <updated>2022-04-04T11:00:00Z</updated>
+    <link href="https://victorfernandezesp.github.io/lm/unidad6/paises.xml"/>
+</entry>
+
+</feed>
