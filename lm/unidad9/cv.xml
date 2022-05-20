@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio4.xsl" type="text/xsl"?>
+<curriculum_vitae>
+    <datos_personales>
+      <nombre>Javier</nombre>
+      <apellidos>Postigo Arévalo</apellidos>
+      <fecha_nacimiento>26/05/2003</fecha_nacimiento>
+      <foto_personal>img.jpg</foto_personal>
+      <blog_personal>Blog</blog_personal>
+      <redes>
+          <red_social>
+            <logo>twitter.png</logo>
+            <nombre>twitter</nombre>
+            <enlace>www.twitter.com/JavierPostigo</enlace>
+          </red_social>
+          
+          <red_social>
+            <logo>linkedit.png</logo>
+            <nombre>linkedit</nombre>
+            <enlace>www.linkedit.com/JavierPostigo</enlace>
+          </red_social>
+          
+          <red_social>
+            <logo>instagram.png</logo>
+            <nombre>instagram</nombre>
+            <enlace>www.instagram.com/JavierPostigo</enlace>
+          </red_social>
+      </redes>
+    </datos_personales>
+    
+<formacion_academica>
+<titulos>
+      <titulo>
+          <nombre>Desarrollo de aplicaciones web</nombre> 
+           <fecha_obtencion_titulo>2023</fecha_obtencion_titulo>
+          <fecha_curso>2021/2023</fecha_curso>
+          
+  </titulo>
+</titulos>
+  <idiomas>
+    <idioma>
+      <nombre>Inglés</nombre>
+      <niveles>
+        <reading>B2</reading>      
+        <writing>C2</writing>
+        <speaking>C2</speaking>
+
+      </niveles>
+      
+    </idioma>
+    
+    <idioma>
+      <nombre>Francés</nombre>
+   <niveles>
+        <reading>C2</reading>      
+        <writing>C1</writing>
+        <speaking>B2</speaking>
+
+      </niveles>
+    </idioma>
+  </idiomas>
+</formacion_academica>
+<experiencia_laboral>
+  
+  <trabajos>
+  <trabajo fecha_inicio="01/04/2022" fecha_final="29/04/2022" >
+    <nombre_trabajo>Portero del Real Madrid</nombre_trabajo>
+    <descripcion>Portero de la puerta 55</descripcion>
+    </trabajo>
+    
+    <trabajo fecha_inicio="01/04/2021" >
+    <nombre_trabajo>Jardinero</nombre_trabajo>
+    <descripcion>Jardinero del campo del Real de Mandrid</descripcion>
+    </trabajo>
+  </trabajos>
+  
+</experiencia_laboral>
+
+</curriculum_vitae> 
